@@ -1,0 +1,6 @@
+// 1.21	2025-07-08T12:57:40.433556	Muck Equipments Mod/Tags for minecraft:block
+11e14a970bc6603c48535f5f336723869a638195 data\minecraft\tags\block\mineable\pickaxe.json
+064b5fbc95eab7c848ed36ed28457aa8fa4bd299 data\minecraft\tags\block\needs_diamond_tool.json
+7753ee0626598fc51759bc1c35f9122d8fadfeb7 data\muckequipmentmod\tags\block\mineable_with_mithril_pickaxe.json
+c9b6bd13e9055048f770ee4e756f1b0d0e5470c2 data\minecraft\tags\block\needs_iron_tool.json
+78ff2d8702214046d10622f46112b2dacffc5647 data\muckequipmentmod\tags\block\mineable_with_adamantite_pickaxe.json

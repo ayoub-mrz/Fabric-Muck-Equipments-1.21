@@ -1,0 +1,9 @@
+// 1.21	2025-07-08T12:57:40.4315581	Muck Equipments Mod/Tags for minecraft:item
+461b64f8596a8f60efe9d8e97dc62fc51025368c data\muckequipmentmod\tags\item\mithril_pickaxes.json
+933478fcd3a8084915bbde2b83b35c4afebe8feb data\minecraft\tags\item\pickaxes.json
+3eef821bf1acfb24722e220996b6eeb61cf8a70f data\minecraft\tags\item\hoes.json
+095b7c988cc391c49f210cb5e9f9490fb0fb3c97 data\minecraft\tags\item\shovels.json
+0f2d945e4d44c15952febc85d2ff7720711a128d data\minecraft\tags\item\axes.json
+56290bd193789da2214dc7bcefbe577a38140d0f data\minecraft\tags\item\swords.json
+e877d8d39f0c1af0a7e94798e90283abdc10ced6 data\minecraft\tags\item\trimmable_armor.json
+07fbafc7439a993efa98ca341f12041ea4f451ce data\muckequipmentmod\tags\item\adamantite_pickaxes.json

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "adamantite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muckequipmentmod:adamantite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.muckequipmentmod.smelt_adamantite.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "muckequipmentmod:adamantite_ingot"
+    },
+    "title": {
+      "translate": "advancements.muckequipmentmod.smelt_adamantite.title"
+    },
+    "background": "muckequipmentmod:textures/block/raw_adamantite_block.png",
+    "background": "muckequipmentmod:textures/gui/advancements/backgrounds/raw_adamantite_block.png"
+  },
+  "requirements": [
+    [
+      "adamantite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

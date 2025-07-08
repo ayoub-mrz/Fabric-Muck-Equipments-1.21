@@ -1,0 +1,46 @@
+{
+  "parent": "muckequipmentmod:adamantite_tools",
+  "criteria": {
+    "adamantite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muckequipmentmod:adamantite_helmet"
+          },
+          {
+            "items": "muckequipmentmod:adamantite_chestplate"
+          },
+          {
+            "items": "muckequipmentmod:adamantite_leggings"
+          },
+          {
+            "items": "muckequipmentmod:adamantite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.muckequipmentmod.adamantite_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "muckequipmentmod:adamantite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.muckequipmentmod.adamantite_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "adamantite_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "muckequipmentmod:obamium_tools",
+  "criteria": {
+    "obamium_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muckequipmentmod:obamium_helmet"
+          },
+          {
+            "items": "muckequipmentmod:obamium_chestplate"
+          },
+          {
+            "items": "muckequipmentmod:obamium_leggings"
+          },
+          {
+            "items": "muckequipmentmod:obamium_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.muckequipmentmod.obamium_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "muckequipmentmod:obamium_chestplate"
+    },
+    "title": {
+      "translate": "advancements.muckequipmentmod.obamium_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "obamium_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

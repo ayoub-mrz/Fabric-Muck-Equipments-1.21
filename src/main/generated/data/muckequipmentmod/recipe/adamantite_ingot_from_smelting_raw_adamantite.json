@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "adamantite_ingot",
+  "ingredient": {
+    "item": "muckequipmentmod:raw_adamantite"
+  },
+  "result": {
+    "id": "muckequipmentmod:adamantite_ingot"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "muckequipmentmod:smelt_mithril",
+  "criteria": {
+    "mithril_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muckequipmentmod:mithril_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mithril_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muckequipmentmod:mithril_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mithril_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muckequipmentmod:mithril_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mithril_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muckequipmentmod:mithril_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mithril_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "muckequipmentmod:mithril_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.muckequipmentmod.mithril_tools.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "muckequipmentmod:mithril_sword"
+    },
+    "title": {
+      "translate": "advancements.muckequipmentmod.mithril_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "mithril_sword",
+      "mithril_axe",
+      "mithril_shovel",
+      "mithril_pickaxe",
+      "mithril_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

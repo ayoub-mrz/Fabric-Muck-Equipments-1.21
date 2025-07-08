@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "muckequipmentmod:adamantite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "muckequipmentmod:adamantite_ingot"
+  }
+}

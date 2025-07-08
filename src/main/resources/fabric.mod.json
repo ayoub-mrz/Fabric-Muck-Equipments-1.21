@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "muckequipmentmod",
+	"version": "${version}",
+	"name": "Muck Equipments Mod",
+	"description": "A Mod That Add Muck Equipments!",
+	"authors": [
+		"AyoubMrz!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/muckequipmentmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ayoubmrz.muckequipmentmod.MuckEquipmentMod"
+		],
+		"fabric-datagen": [
+			"net.ayoubmrz.muckequipmentmod.MuckEquipmentModDataGenerator"
+		],
+		"client": [
+			"net.ayoubmrz.muckequipmentmod.MuckEquipmentModClient"
+		]
+	},
+	"mixins": [
+		"muckequipmentmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"geckolib": "4.5.8",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

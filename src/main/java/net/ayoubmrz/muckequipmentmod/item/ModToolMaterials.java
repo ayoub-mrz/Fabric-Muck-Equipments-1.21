@@ -11,13 +11,13 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     MITHRIL(ModTags.Blocks.INCORRECT_FOR_MITHRIL_TOOL,
-            1822, 10.0F, 9.0F, 15, () -> Ingredient.ofItems(ModItems.MITHRIL_INGOT)),
+            1822, 14.0F, 9.0F, 15, () -> Ingredient.ofItems(ModItems.MITHRIL_INGOT)),
 
     ADAMANTITE(ModTags.Blocks.INCORRECT_FOR_ADAMANTITE_TOOL,
-            2130, 11.0F, 12.0F, 15, () -> Ingredient.ofItems(ModItems.ADAMANTITE_INGOT)),
+            2130, 16.0F, 12.0F, 15, () -> Ingredient.ofItems(ModItems.ADAMANTITE_INGOT)),
 
     OBAMIUM(ModTags.Blocks.INCORRECT_FOR_OBAMIUM_TOOL,
-            2431, 12.0F, 16.0F, 15, () -> Ingredient.ofItems(ModItems.OBAMIUM_INGOT));
+            2431, 18.0F, 16.0F, 15, () -> Ingredient.ofItems(ModItems.OBAMIUM_INGOT));
 
 
     private final TagKey<Block> inverseTag;

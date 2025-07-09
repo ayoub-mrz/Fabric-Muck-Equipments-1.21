@@ -1,8 +1,8 @@
-// 1.21	2025-07-08T12:57:40.433556	Muck Equipments Mod/Block Loot Tables
-890e403030b13669dcef7a61df52c11a10ac642f data\muckequipmentmod\loot_table\blocks\raw_mithril_block.json
+// 1.21	2025-07-08T13:20:30.3116863	Muck Equipments Mod/Block Loot Tables
 c87d2db6cc13033f329c8f66ea11efcd1d0903ed data\muckequipmentmod\loot_table\blocks\mithril_block.json
-d1c4d4759c98189527070ba09ffb88101a84f0b8 data\muckequipmentmod\loot_table\blocks\raw_adamantite_block.json
+890e403030b13669dcef7a61df52c11a10ac642f data\muckequipmentmod\loot_table\blocks\raw_mithril_block.json
 f1a07f25ab7fa20220d90d3b44d80d5ace9987db data\muckequipmentmod\loot_table\blocks\obamium_ore.json
+d1c4d4759c98189527070ba09ffb88101a84f0b8 data\muckequipmentmod\loot_table\blocks\raw_adamantite_block.json
 61c2bc017124bee9cb6430a8c6bfab6f9e49636e data\muckequipmentmod\loot_table\blocks\obamium_deepslate_ore.json
 1d368574d53a4e023b2a69d7cbcd046f83b630cd data\muckequipmentmod\loot_table\blocks\mithril_ore.json
 8ee368e078ee52c7d251e89b968be7207ab350db data\muckequipmentmod\loot_table\blocks\obamium_block.json

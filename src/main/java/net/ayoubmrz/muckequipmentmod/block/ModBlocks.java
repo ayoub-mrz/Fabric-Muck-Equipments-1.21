@@ -23,10 +23,10 @@ public class ModBlocks {
 
     public static final Block MITHRIL_ORE = registerBlock("mithril_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
-                    AbstractBlock.Settings.create().strength(3.0F, 3.0F).requiresTool()));
+                    AbstractBlock.Settings.create().strength(20.0F, 300.0F).requiresTool()));
     public static final Block MITHRIL_DEEPSLATE_ORE = registerBlock("mithril_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().strength(20.5F, 300.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 //    -------------------------------------------------------------------------------------------------
 
 //    -----------------------------------------  Adamantite Blocks  --------------------------------------------------------
@@ -38,10 +38,10 @@ public class ModBlocks {
 
     public static final Block ADAMANTITE_ORE = registerBlock("adamantite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
-                    AbstractBlock.Settings.create().strength(3.0F, 3.0F).requiresTool()));
+                    AbstractBlock.Settings.create().strength(30.0F, 700.0F).requiresTool()));
     public static final Block ADAMANTITE_DEEPSLATE_ORE = registerBlock("adamantite_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().strength(30.0F, 700.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 //    -------------------------------------------------------------------------------------------------
 
 //    -----------------------------------------  Obamium Blocks  --------------------------------------------------------
@@ -53,10 +53,10 @@ public static final Block OBAMIUM_BLOCK = registerBlock("obamium_block",
 
     public static final Block OBAMIUM_ORE = registerBlock("obamium_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
-                    AbstractBlock.Settings.create().strength(3.0F, 3.0F).requiresTool()));
+                    AbstractBlock.Settings.create().strength(40.0F, 900.0F).requiresTool()));
     public static final Block OBAMIUM_DEEPSLATE_ORE = registerBlock("obamium_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
-                    AbstractBlock.Settings.create().strength(4.5F, 3.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create().strength(40.0F, 900.0F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 //    -------------------------------------------------------------------------------------------------
 
 
